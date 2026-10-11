@@ -1,0 +1,6 @@
+{
+  "key.mcafk.toggle": "Toggle AFK helper",
+  "key.mcafk.settings": "Open AFK helper settings",
+  "key.mcafk.start_recording": "Start macro recording",
+  "key.mcafk.stop_recording": "Stop and save macro"
+}

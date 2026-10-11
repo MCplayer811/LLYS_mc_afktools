@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mcafk",
+  "version": "${version}",
+  "name": "MC AFK Helper",
+  "description": "Records and replays client input macros and can send occasional chat.",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "local.mcafk.McAfkClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "mcafk.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
